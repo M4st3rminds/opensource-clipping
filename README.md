@@ -67,7 +67,8 @@ Open a new Google Colab notebook, set the Runtime to **T4 GPU**, and create the 
 **Cell 1: Setup & Clone**
 ```python
 !rm -rf ./* ./.*
-!git clone https://github.com/your-username/opensource-clipping.git .
+!git clone https://github.com/your-username/opensource-clipping.git
+%cd opensource-clipping/
 !pip install -r requirements.txt
 ```
 
